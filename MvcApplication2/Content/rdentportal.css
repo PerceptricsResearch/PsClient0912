@@ -1,0 +1,274 @@
+﻿
+#rdplatformlayoutroot
+{
+	position: absolute;
+	top: 0em;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	}
+#rdhcpwrapper
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	padding-left: 65px;
+	}
+	#rdhomecenterpanel
+	{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+		}
+		
+	#defaultloadingpage
+	{
+		position:absolute;
+		top:4em;
+		left:4em;
+		bottom:0em;
+		right: 0em;
+		font-size: 2em;
+		color:rgba(20,20,20,0.3);
+		padding: 1em;
+		}		
+		
+#prwbuttonbar
+{
+	width:65px;
+	z-index:2000;
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    height:100%; 
+    background-color:rgba(215,215,215,1);	
+	}
+.prwslideout
+{
+	left:62px;
+	right:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+	float:left;
+	padding:0;
+	z-index: 1000;
+	height:99%;
+	background-color: hsla(0, 100%, 99%, 0.9);
+}
+.prwslideouthide {
+	display: none
+}
+.prwslideoutdisplay {
+	display: inherit
+}
+.rdbuttonbaritem
+{
+	position:relative;
+	background-color:hsla(189, 100%, 12%, 1);
+	height:4em;
+	margin:2px;
+	border-color:hsla(179, 54%, 64%, 0.8);
+	border-style:solid;
+	border-width:1px;
+	}
+	.rdbuttonbaritemtext
+	{
+		position:absolute;
+		top:1.5em;
+		bottom: 1.5em;
+		left:0em;
+		right: 0em;
+		padding-top: 0.1em;
+		text-align: center;
+		font-size: 0.8em;
+        color:hsla(179, 98%, 98%, 1);
+		}
+#rdactionslistpanel {
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	position:relative;
+	padding:0;
+    width:99%;
+    height:99%;
+    margin:auto;
+    margin-top:1px;
+    overflow:hidden;
+    background-color: hsla(189, 10%, 68%, 0.5)
+}
+.rdactionlistbtn
+{
+	margin-bottom:0.8em;
+	}		
+.rdactionslistitem
+{
+	position:relative;
+	text-align:center;
+	font-size: 0.8em;
+	margin-left:1.5em;
+	margin-right: 1.5em;
+	padding:1em;
+    color:White;
+    border: 1px solid hsla(179, 54%, 64%, 0.2);
+	background-color: hsla(189, 100%, 11%, 1);
+		  -webkit-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+      -moz-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+          box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+	}
+#rdmessagepanelwrapper
+{
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:0.5em;
+	padding-bottom:0.25em;
+	}	
+#rdmessagepanel
+{
+	padding:1em;
+	color:hsla(189, 100%, 11%, 1);
+    border: 1px solid hsla(189, 100%, 11%, 0.1);
+	}
+#rdmessagepanelsimpletext
+	{
+		padding:0.15em;
+		font-size:80%;
+		text-align:center;
+		}
+#rdmessagepanelcontent
+{
+		font-size:80%;
+		text-align:center;
+	}
+#rdfinishpagezero
+{
+	position:relative;
+    margin-left:1em;
+    margin-right:1em;
+    padding:1em;
+    background:rgba(225,225,225,0.8);
+	}
+	#rdfinishpagezerocontent
+	{
+		padding:1.5em;
+        text-align:center;
+        background:rgba(245,245,245,1);
+		}
+
+#rddomainpanel
+{
+	width: 240px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	position:absolute;
+	float:right;
+	padding:0;
+	z-index: 1000;
+	height:99%;
+	background-color: hsla(0, 100%, 99%, 0.9);
+	}
+#rddomainplayerpanel
+{
+
+	}
+	#rddomaindonebtnwrapper
+	{
+		padding:0.25em;
+		background:rgba(245,245,245,1);
+		}
+	#rddomaindonebtn
+	{
+		padding:0.5em;
+		text-align: center;
+		color:White;
+		background:rgba(2,50,95,1)
+		}
+	#rddomainplayerroot
+	{
+		position:relative;
+		padding-left:2%;
+		padding-right:2%;
+		margin-top:0em;
+		margin-bottom:0em;
+		}
+	#rddomainplayercontainerwrapper
+	{
+		
+		}
+		#rddomainplayercontainer
+		{
+			position:relative;
+			top:1px;
+			bottom:1px;
+			left:1px;
+			right:1px;
+			padding:2px;
+            background:rgba(245,255,250,1);
+			}
+			#rddomainplayerscrollable
+			{
+				overflow:hidden;
+				position:relative;
+                background:rgba(180,180,180,0.3);
+                border:1px solid hsla(179,100%,5%,0.2);
+				}
+			#rddomainplayeritems
+			{
+				position:relative;
+				width:500em;
+				}
+			.rddomainplayerpage
+			{
+				position:relative;
+				display:inline-block;
+                height:100%;
+                min-height:300px;
+                vertical-align:top;
+                font-size:70%;
+                overflow: auto;
+                padding: 0em;
+				}
+	#rddomainplayerprevnextbtnscontainer
+	{
+		position:relative;
+		left:0px;
+		right:0px;
+        margin-top:0.5em;
+        height:2em;
+        font-size: 0.8em;
+        background:rgba(1,40,40,0.8);
+		}
+		#rddomainplayerprev
+		{
+			position:absolute;
+			top:1px;
+			bottom:1px;
+			left:1%;
+			right:85%;
+            color:rgb(255,255,255);
+            text-align:center;
+            padding:0.26em;
+			}
+		#rddomainplayernext
+		{
+			position:absolute;
+			top:1px;
+			bottom:1px;
+			right:1%;
+			left:85%;
+            color:rgb(255,255,255);
+            text-align:center;
+            padding:0.26em;
+			}
+			#rdcommentpagezerocontent
+			{
+				padding:0.5em;
+				}

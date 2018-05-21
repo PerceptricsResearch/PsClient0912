@@ -1,0 +1,564 @@
+﻿#guestcontent
+{
+	position:relative;top:0;left:0;padding:0;
+    height:90%;
+    overflow:auto;
+    -webkit-overflow-scrolling: touch;
+    background:rgba(253, 253, 250, 1)
+	}
+#guestheadertoprow
+{
+	position:relative;
+    height:5%;
+    min-height:1.6em;
+    padding-left:2em;
+    overflow:hidden;
+	}
+#guestheader
+{
+	position:relative;
+    text-align:left;
+    color:hsla(189, 100%, 12%, 1);
+    padding-top:0.25em;
+    font-size:1em;
+	}
+#guestplatformlayoutroot
+{
+	position: absolute;
+	top: 0em;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	}
+#guesthcpwrapper
+{
+	position: absolute;
+	top: 0;
+	right: 1em;
+	bottom: 0;
+	left: 65px;
+	}
+	#guesthomecenterpanel
+	{
+	position: relative;
+	height: 100%;
+		}
+		
+	#defaultloadingpage
+	{
+		position:absolute;
+		top:4em;
+		left:4em;
+		bottom:0em;
+		right: 0em;
+		font-size: 2em;
+		color:rgba(20,20,20,0.3);
+		padding: 1em;
+		}		
+		
+#prwbuttonbar
+{
+	width:65px;
+	z-index:2000;
+	position:relative;
+    background-color:rgba(215,215,215,1);	
+	}
+#prwslideoutscontainer
+{
+	position: absolute;
+	top:0;
+	bottom:2em;
+	left:0;
+	z-index: 1600;
+	}	
+.prwslideout
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index: 1600;
+}
+.slideoutcontentpanel
+{
+	position:relative;
+	padding: 0.25em;
+	background-color:rgba(215,215,215,1);
+	}
+.prwslideouthide {
+	display: none
+}
+.prwslideoutdisplay {
+	display: inherit
+}
+.guestbuttonbaritem
+{
+	position:relative;
+	background-color:hsla(189, 100%, 12%, 1);
+	height:4em;
+	margin:2px;
+	border-color:hsla(179, 54%, 64%, 0.8);
+	border-style:solid;
+	border-width:1px;
+	}
+	.guestbuttonbaritemtext
+	{
+		position:absolute;
+		top:1.5em;
+		bottom: 1.5em;
+		left:0em;
+		right: 0em;
+		padding-top: 0.1em;
+		text-align: center;
+		font-size: 0.8em;
+        color:hsla(179, 98%, 98%, 1);
+		}
+#guestactionslistpanel 
+{	
+	position:relative;
+	left:0;
+	top:0;
+	overflow:hidden;
+	}
+.guestactionlistbtn
+{
+	margin-bottom:0.8em;
+	}		
+.guestactionslistitem
+{
+	position:relative;
+	text-align:center;
+	font-size: 0.8em;
+	margin-left:1.5em;
+	margin-right: 1.5em;
+	padding:1em;
+    color:White;
+    border: 1px solid hsla(179, 54%, 64%, 0.2);
+	background-color: hsla(189, 100%, 11%, 1);
+		  -webkit-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+      -moz-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+	}
+#guestmessagepanelwrapper
+{
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:0.5em;
+	padding-bottom:0.25em;
+	}	
+#guestmessagepanel
+{
+	padding:1em;
+	color:hsla(189, 100%, 11%, 1);
+    border: 1px solid hsla(189, 100%, 11%, 0.1);
+	}
+#guestmessagepanelsimpletext
+	{
+		padding:0.15em;
+		font-size:80%;
+		text-align:center;
+		}
+#guestmessagepanelcontent
+{
+		font-size:80%;
+		text-align:center;
+	}
+	#guestdomainpanel
+{
+	width: 20em;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0;
+	z-index: 1000;
+	
+	}
+#guestdomainplayerpanel
+{
+	position:relative;
+	}
+	#guestdomaindonebtnwrapper
+	{
+		position:relative;
+		padding:0.25em;
+		padding-left:3em;
+		padding-right: 3em;
+		background:rgba(5,65,65,1);
+		}
+	#guestdomaindonebtn
+	{
+		position:relative;
+		padding:0.5em;
+		text-align: center;
+		color:White;
+		font-size: 0.8em;
+		background:rgba(2,50,75,1)
+		}
+	#domainplayerrootcontainer
+	{
+		position:relative;
+		}
+	#guestdomainplayerroot
+	{
+		position:relative;
+		}
+	#guestdomainplayercontainerwrapper
+	{
+		position:relative;
+		overflow:hidden;
+		}
+		#guestdomainplayercontainer
+		{
+			position:relative;
+            background:rgba(252, 252, 249, 1);
+			}
+			#guestdomainplayerscrollable
+			{
+				overflow:hidden;
+				position:relative;
+				
+                border:1px solid hsla(179,100%,5%,0.2);
+				}
+			#guestdomainplayeritems
+			{
+				position:relative;
+				width:200em;
+				}
+			.guestdomainplayerpage
+			{
+				position:relative;
+				display:inline-block;
+                min-height:22em;
+                vertical-align:top;
+                padding: 0em;
+				}
+				.guestdppagecontent
+				{
+					overflow:auto;
+					
+					font-size: 80%;
+					background:rgba(254, 254, 251, 1);
+					padding-top: 0.15em;
+					padding-bottom: 0.5em;
+					}
+				.droppztargetable
+				{
+					position:relative;
+					}	
+	#guestdomainplayerprevnextbtnscontainer
+	{
+		position:relative;
+        margin-top:0.5em;
+        height:2.5em;
+        font-size: 0.8em;
+        background:rgba(1,40,40,0.8);
+		}
+		#guestdomainplayerprev
+		{
+			position:absolute;
+			top:0.4em;
+			bottom:0.5em;
+			left:0.25em;
+			right:60%;
+            color:rgb(255,255,255);
+            text-align:left;
+            padding:0.25em;
+            padding-left: 0.5em
+			}
+		#guestdomainplayernext
+		{
+			position:absolute;
+			top:0.4em;
+			bottom:0.5em;
+			right:0.25em;
+			left:60%;
+            color:rgb(255,255,255);
+            text-align:right;
+            padding:0.25em;
+            padding-right: 0.5em;
+			}
+			#guestcommentpagezerocontent
+			{
+				padding:0.5em;
+				}
+	
+	#rsltsgrplistrfgolistview
+	{
+		position:relative;
+		overflow: auto;
+		padding: 0.1em;
+		max-height: 20em;
+        background:rgba(180,180,180,1);
+		}
+	.rfgoitemcontainer
+	{
+		position:relative;
+		left:1%;
+		right:1%;
+        width:96%;
+		min-height:6em;
+        margin-bottom:5px;
+        background-color:rgba(235, 235, 235,0.2);
+		}
+	#prwsmdroot
+	{
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		position:relative;
+		padding:0;
+        width:99%;
+        height:99%;
+        margin:auto;
+        margin-top:1px;
+        overflow:hidden;
+        color:White;
+        background-color: rgba(230,230,230,1);
+		}
+		#smdactions
+		{
+			width:100%;
+			height:2em;
+			font-size: 0.8em;
+			background:hsla(58, 80%, 25%, 1);
+			}
+		#prwsmditemsset
+		{
+			position:absolute;
+			top:1.75em;
+			bottom:0.25em;
+			left:0.25em;
+			right:0.25em;
+			padding: 0.25em;
+			padding-bottom:1em;
+			overflow:auto;
+			background-color: rgba(240,240,240,1);
+			}
+			#prwsmdkobindingpoint
+			{
+				position:relative;
+				padding: 0.25em;
+				background-color: rgba(250,250,250,1);
+				}
+	.smdsection
+	{
+		padding:0.5em;
+		margin-bottom: 0.25em;
+		background-color: rgba(180, 180, 130, 0.9);
+		}			
+	.smdsectiontitle
+	{
+		background-color:hsla(58, 80%, 25%, 1);
+		text-align:center;
+		margin-bottom: 0.25em;
+		height: 1.5em;
+		padding-top: .35em;
+		padding-bottom: .1em;
+		font-size: 0.85em;
+		}			
+	.smdkeyrow
+	{
+	padding: 0.25em;
+	height: 1.35em;
+	color: hsla(180, 10%, 99%, 0.90);
+	background-color: hsla(189, 100%, 15%, 1);
+	text-align: center;
+	font-size: 0.7em;
+		}
+	.smdvaluerow
+	{
+	padding: 0.35em;
+	padding-bottom: 0.15em;
+	height: 1.5em;
+	color: #000000;
+	background-color: hsla(180, 1%, 95%, 0.97);
+	text-align: center;
+	margin-bottom: 0.6em;
+	font-size: 0.8em;
+		}
+	
+	#guestpagespanel
+	{
+	width: 7em;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0;
+	z-index: 1000;
+		}
+	#surveypagenaviroot
+	{
+		position:relative;
+		}
+		#surveypagenavicontainerwrapper
+		{
+			position:relative;
+			}
+			#surveypagenavicontainer 
+			{
+				position:relative;
+				}
+		#surveypagenaviscrollable
+		{
+			position:relative;
+			padding: 0.25em;
+			padding-bottom:1em;
+			overflow:auto;
+			background-color: rgba(240,240,240,1);
+			min-height:12em;
+			max-height: 14em;
+			}
+			#surveypagenaviitems
+			{
+				position:relative;
+				padding: 0.25em;
+				padding-left: 0.25em;
+				padding-right:1em;
+				background-color: rgba(250,250,250,1);
+				}
+	.prwpageicon
+	{
+		height:2.5em;
+		padding: 0.15em;
+		padding-bottom: 0.5em;
+		}
+		.prwpageiconcontent
+		{
+			text-align:center;
+			padding:0.25em;
+			padding-bottom: 0.7em;
+			padding-top: 0.7em;
+            color:White;
+            font-size: 0.7em;
+			}
+		.selectedpageicon
+		{
+			background-color: hsla(208, 100%, 47%, 1);
+			}
+		.defaultpageicon
+		{
+			background-color: hsla(208, 80%, 17%, 1);
+			}
+	#surveypagenaviprevnextbtnscontainer
+	{
+		display:none;
+		}
+		
+#textentrycontainerwrapper
+{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+			overflow:hidden;
+			background-color: rgba(24,240,24,0.1);
+	}
+	#textentrycontainer
+	{
+		
+		
+		}
+	#textentryroot
+	{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+		padding:0.05em;
+		background-color: rgba(245,245,240,1);
+		}
+	.textentrybtnpanel
+	{
+		position:absolute;
+		top:3em;
+		right:0.05em;
+		width: 3.5em;
+		padding:0.5em;
+		padding-bottom: 0.05em;
+		padding-left: 0.75em;
+		background-color: rgba(252, 253, 250,1);
+		}
+	.textentrybtn
+	{
+		display:inline-block;
+		vertical-align: top;
+		width: 3.85em;
+		padding:0.5em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin-bottom: 1.5em;
+		text-align: center;
+		font-size: 0.7em;
+		background-color: rgba(224,224,224,1);
+		}
+		#textentrytoolbar
+		{
+			position:relative;
+			width: 19em;
+			padding-left:0.05em;
+			padding-right:0.05em;
+			overflow: auto;
+			}
+		.redactor_toolbar
+		{
+			width: 33em;
+			white-space: nowrap;
+			}
+	#textentryeditorcontainerwrapper
+	{
+			position:absolute;
+			top:3em;
+			bottom:0.5em;
+			left:0.05em;
+			right:4.95em;
+			overflow:hidden;
+		
+		background-color: rgba(224,224,220,1);
+		}	
+		#textentryeditorcontainer
+		{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+			overflow:auto;
+			padding-left: 8px;
+			padding-right: 13px;
+			background-color: rgba(255,255,255,1);
+			}
+#textentryeditorplaceholder
+		{
+			position:relative;
+			height: 8.5em;
+			font-size:15px;
+
+			font-family:Arial, Helvetica, Verdana, Tahoma, sans-serif;
+			line-height: 1.45em;
+			background-color: rgba(255,255,255,1);
+			}
+#textentrybottompanel
+{
+			width:24em;
+			position:absolute;
+			top:0;
+			right:0;
+			padding: 0;
+			padding-bottom: 0.25em;
+			overflow:hidden;
+			z-index: 1600;
+			min-height: 14em;
+			background-color: rgba(220,225,215,1);
+	}
+	#textentrybottompanelcontent
+	{
+		position:absolute;
+			top:0.25em;
+			bottom:0.25em;
+			left:0.25em;
+			right:0.25em;
+		background-color: rgba(250,250,245,1);
+		}

@@ -1,0 +1,1001 @@
+﻿	.ellipsis
+	{
+		text-overflow:ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		}
+#metricspagefooter
+{
+	position: absolute;
+	left:0;
+	right:0;
+	bottom: 0px;
+	height: 2em;
+	color: #155;
+	padding: 0em;
+	line-height: normal;
+	text-align: center;
+	background:rgba(220, 222, 215, 1);
+	}
+#metricsheadertoprow
+{
+	position:relative;
+    height:2em;
+    padding-left:2em;
+    overflow:hidden;
+	}
+	#metricsheader
+{
+	position:relative;
+    text-align:left;
+    color:hsla(189, 100%, 12%, 1);
+    padding-top:0.25em;
+    font-size:1em;
+	}
+#metricscontent
+{
+   	position:absolute;
+   	top:2em;
+   	bottom:2em;
+   	left:0;
+   	right:0;
+   	min-width: 22em;
+   	padding:0;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+	}
+	#metricscontinuebtn
+	{
+		padding:1em;
+		position:relative;
+		text-align:center;
+        margin:auto;
+        width:6em;
+        color:rgba(255,255,255,1);
+        background:rgba(1,125,115,1);
+		}
+
+#metricsplatformlayoutroot
+{
+	position: absolute;
+	top: 0em;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	}
+#metricshcpwrapper
+{
+	position: absolute;
+	top: 0;
+	right: 1em;
+	bottom: 0;
+	left: 65px;
+	}
+	#metricshomecenterpanel
+	{
+	position: relative;
+	height: 100%;
+		}
+		
+	#defaultloadingpage
+	{
+		position:absolute;
+		top:4em;
+		left:4em;
+		bottom:0em;
+		right: 0em;
+		font-size: 2em;
+		color:rgba(20,20,20,0.3);
+		padding: 1em;
+		}		
+.metricsbackcanceldonecontainer
+{
+	position:absolute;
+	top:0.25em;left:0.25em;bottom:0.25em;right:0.25em;
+	padding: 0.25em;
+	font-size: 0.75em;
+	line-height: 1.25em;
+	}
+.metricsbackcancel
+{
+	position:relative;
+	float:left;
+	padding: 0.5em;
+	width: 5em;
+	text-align: center;
+	color:rgb(255,255,255);
+	background: hsl(220,100%,25%);
+	}
+.metricseditdone
+{
+	position:relative;
+	float:right;
+	padding: 0.5em;
+	width: 5em;
+	text-align: center;
+	color:rgb(255,255,255);
+	background: hsl(220,100%,25%);
+	}			
+.metricsselectbtn
+{
+	position:relative;
+	width: 5em;
+	float:right;
+	text-align: center;
+	color:rgb(255,255,255);
+	background: hsl(220,100%,25%);
+	}
+.dashboarditem
+{
+	position:relative;
+	padding: 0.5em;
+	font-size: 0.75em;
+	margin-bottom: 1em;
+	background: rgba(225,230,220,1);
+	}
+.dashboardplaceholderroot
+{
+	position:relative;
+	padding: 0em;
+	}		
+
+.dashboardtitlewrapper
+{
+	position:relative;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	background: rgba(253,255,249,0.7);
+	}
+.dashboardtitle
+{
+	position:relative;
+	text-align: center;
+	padding: 0.5em;
+	background: rgba(249,250,245,1);
+	}	
+.dashboardcontainerwrapper
+{
+	position:relative;
+	padding: 0.25em;
+	background: hsla(156,100%,10%,.05);
+	}
+.dashboardcontainer
+{
+	position:relative;
+	padding: 0.25em;
+	background: hsla(156,100%,10%,.05);
+	}
+.dashboardregionscontainer
+{
+	position:relative;
+	padding: 0.25em;
+	background: rgba(253,255,253,1);
+	}
+.dashboardregionwrapper
+	{
+	position:relative;
+	padding: 0.25em;
+	margin-bottom: 1em;
+	background: rgba(245,248,240,1);
+		}	
+.dashboardregion
+{
+	position:relative;
+	padding: 1em;
+	background: rgba(255,255,255,1);
+	}
+	.dashboardregionwide
+	{
+		margin-left:7em;
+		margin-right: 0em;
+		}
+	.dashboardregionfloatleft
+	{
+		float: left;
+		}
+	.dashboardfillright
+	{
+		margin-left:auto;
+		margin-right: 0em;
+		}
+	.dashboardregioninlinetop
+	{
+		display:inline-block;
+		vertical-align: top;
+
+		}
+	.dashboardregionlefthalf
+	{
+		width: 45%;
+		max-width: 30em;
+		}	
+#realizationdashboardroot
+{
+	position:relative;
+	padding: 0em;
+	min-width: 20em;
+	background: hsla(229,100%,25%,0.6);
+	}
+	#realizationdashboardtitlewrapper
+	{
+		background:rgb(250,253,250);
+		}
+	#periodselectorcontainerwrapper
+	{
+		position:relative;
+		text-align: center;
+		font-size: 0.75em;
+		line-height: 1.25em;
+		background:rgb(250,253,250);
+		}
+	.realizationstaffingroot
+	{
+		position:relative;
+		overflow: hidden;
+		min-width: 17em;
+		padding: 0.25em;
+		margin-bottom: 1em;
+		background: hsla(1,100%,99%,1);
+		}
+		#staffingsummarymetricscontainer
+		{
+			position:relative;
+			height:3em;
+			font-size:0.75em;line-height:1.25em;text-align:center;
+			overflow: auto;
+			}
+		#staffingsvgroot
+		{
+			position:relative;
+			padding: 1em;
+			height:25.5em;
+			overflow: auto;
+			}
+		.staffingitemcontainer
+		{
+			position:relative;
+			padding:0.25em;
+			background:rgba(223,225,220,1);
+			margin:0em;
+			margin-bottom:1em;
+			}
+		.staffingcollapseable
+		{
+			position:absolute;
+			top:2em;
+			height:2em;
+			left:35%;
+			right:35%;
+			width:30%;
+			background:rgba(20,20,220,0.41);
+			-webkit-transform: translate3d(0,0,0);
+			}	
+	.realizationrenticleroot
+	{
+		position:relative;
+		overflow: hidden;
+		min-width: 15em;
+		padding: 0.25em;
+		margin-bottom: 1em;
+		background: hsla(1,100%,99%,1);
+		}
+		#realizeparametersroot
+		{
+		position:absolute;
+		display:none;
+		top:5em;
+		right:1em;
+		overflow: hidden;
+		background: hsla(1,100%,99%,1);
+			}
+		#realizesvgroot
+		{
+		position:relative;
+		padding: 0.25em;
+		background: hsla(1,100%,99%,1);
+			}
+			#realizesvg
+			{
+				height:28em;
+				position:relative;
+				padding:1em;
+				background:rgba(120,120,120,0.7);
+				}
+	#reaslizationmetricscontextsetroot
+	{
+		position:relative;
+		min-width: 15em;
+		padding: 0.25em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		background: hsla(1,100%,99%,1);
+		}
+		.metricscontextsetitem
+		{
+		display:inline-block;
+		vertical-align: top;
+		font-size: 0.75em;
+		width: 31%;
+		max-width: 35em;
+		min-width: 14em;
+			}
+		.metricscontextslideoutplaceholder
+			{
+				display:inline-block;
+				vertical-align: top;
+				}
+		.availablecontextsroot
+				{
+					margin-left:auto;
+					margin-right: 0em;
+					}
+		.availablecontextscolxncontainer
+		{
+			position:relative;
+			padding: 0.25em;
+			padding-left: 2em;
+			overflow: auto;
+			height: 16.5em;
+			font-size: 0.75em;
+			line-height: 1.25em;
+			background: rgba(240,240,240,1);
+			}
+		.availablecontextscolxnitemcontainerwrapper
+		{
+			position:relative;
+			padding: 0.25em;
+			background: rgba(250,253,250,1);
+			}
+		.availablecontextscolxnitemcontainer
+		{
+			position:relative;
+			padding: 0.25em;
+			background: rgba(250,253,250,1);
+			}
+			.availablecontextscolxnitem
+			{
+				position:relative;
+				padding: 0.25em;
+				height: 4em;
+				}
+			.activecontextsitemselector
+			{
+				position:absolute;top:0;bottom:0;left:0;
+				width: 4em;
+				background: rgba(255,255,255,1);
+				}
+			.availablecontextscolxnitemcontent
+				{
+					position:absolute;top:0;bottom:0;left:4em;right:0;
+					padding-left:0.25em;padding-right:0.25em;padding-bottom:0.25em;
+					text-align: left;
+					font-size: 1em;
+					line-height: 1.45em;
+					background: rgb(241,243,238);
+					}
+		.availablecontextcontentitem
+		{
+			display:inline-block;
+			vertical-align: top;
+			}
+		.newcontextcopyitemselector
+			{
+				position:relative;
+				padding: 0.25em;
+				height: 4em;
+				width: 4em;
+				display:inline-block;
+				vertical-align: top;
+				}
+		.createdocumentheadercontainerwrapper
+		{
+				position:relative;
+				padding: 0.5em;
+				height: 5em;
+				font-size: 0.75em;
+				line-height: 1.25em;
+				margin-bottom: 1em;
+				background: rgb(250,253,248);
+			}
+		#createdocumentheadercontainer
+		{
+			position:absolute;
+			top:0.25em;left:4em;bottom:0.25em;right:0em;
+			padding: 0.25em;
+			}			
+		.createcontextdocumentitemselector
+				{
+				position:relative;
+				padding: 0.25em;
+				height: 3em;
+				width: 3em;
+				display:inline-block;
+				vertical-align: top;
+					}		
+		.metricscontextslideouthidden
+		{
+			display:none;
+			}
+		.metricscontextoptionlistcontainer
+		{
+			position:relative;
+			padding: 0.25em;
+			padding-left: 2em;
+			overflow: auto;
+			height: 16.5em;
+			background: rgba(240,240,240,1);
+			}	
+		.metricscontextoptionitemcontainerwrapper
+		{
+			position:relative;
+			padding: 0.25em;
+			max-width: 15em;
+			min-width: 7em;
+			background: rgb(251,253,248);
+			}
+		.metricscontextoptionitemcontainer
+		{
+			position:relative;
+			padding: 0.25em;
+			height: 3em;
+			background: rgb(241,243,238);
+			}
+			.metricscontextitemselector
+			{
+				position:absolute;top:0;bottom:0;left:0;
+				width: 3em;
+				background: rgba(255,255,255,1);
+				}
+			.metricscontextitemtext
+			{	
+				position:absolute;top:0;bottom:0;left:3em;right:0;
+				line-height:1.45em;
+				padding-top: 1em;
+				padding-left:0.25em;padding-right:0.25em;padding-bottom:0.25em;
+				text-align: left;
+				font-family:Arial, Helvetica, Verdana, Tahoma, sans-serif;
+				font-size:1em;
+				background: rgb(255,255,255);
+			}	
+	
+	#reaslizationotherregionscontainer
+	{
+		position:relative;
+		padding: 0.25em;
+		margin:auto;
+		}
+	.realizerootminimize
+	{
+		width: 7em;
+		float: left;
+		min-width: 7em;
+		overflow: hidden;
+		}
+	.realizerootmaximize
+	{
+		width: 92%;
+		}	
+.viewrootmessagewrapper
+	{
+		padding:0.5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		background: rgba(245,248,240,1);
+		}	
+	.viewrootmessage
+	{
+		font-size:0.75em;
+		line-height: 1.25em;
+		padding: 1em;
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+		background: hsla(210, 10%, 99%, 1);
+		}		
+#prwbuttonbar
+{
+	width:65px;
+	z-index:2000;
+	position:relative;
+    background-color:rgba(215,215,215,1);	
+	}
+#prwslideoutscontainer
+{
+	position: absolute;
+	top:0;
+	bottom:2em;
+	left:0;
+	z-index: 1600;
+	}	
+.prwslideout
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index: 1600;
+}
+.slideoutcontentpanel
+{
+	position:relative;
+	padding: 0.25em;
+	background-color:rgba(215,215,215,1);
+	}
+.prwslideouthide {
+	display: none
+}
+.prwslideoutdisplay {
+	display: inherit
+}
+.metricsbuttonbaritem
+{
+	position:relative;
+	background-color:hsla(189, 100%, 12%, 1);
+	height:4em;
+	margin:2px;
+	border-color:hsla(179, 54%, 64%, 0.8);
+	border-style:solid;
+	border-width:1px;
+	}
+	.metricsbuttonbaritemtext
+	{
+		position:absolute;
+		top:1.5em;
+		bottom: 1.5em;
+		left:0em;
+		right: 0em;
+		padding-top: 0.1em;
+		text-align: center;
+		font-size: 0.8em;
+        color:hsla(179, 98%, 98%, 1);
+		}
+#metricsactionslistpanel 
+{	
+	position:relative;
+	left:0;
+	top:0;
+	overflow:hidden;
+	}
+.metricsactionlistbtn
+{
+	margin-bottom:0.8em;
+	}		
+.metricsactionslistitem
+{
+	position:relative;
+	text-align:center;
+	font-size: 0.8em;
+	margin-left:1.5em;
+	margin-right: 1.5em;
+	padding:1em;
+    color:White;
+    border: 1px solid hsla(179, 54%, 64%, 0.2);
+	background-color: hsla(189, 100%, 11%, 1);
+		  -webkit-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+      -moz-box-shadow: 3px 5px 13px rgba(50,50,50,0.31);
+	}
+#metricsmessagepanelwrapper
+{
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:0.5em;
+	padding-bottom:0.25em;
+	}	
+#metricsmessagepanel
+{
+	padding:1em;
+	color:hsla(189, 100%, 11%, 1);
+    border: 1px solid hsla(189, 100%, 11%, 0.1);
+	}
+#metricsmessagepanelsimpletext
+	{
+		padding:0.15em;
+		font-size:80%;
+		text-align:center;
+		}
+#metricsmessagepanelcontent
+{
+		font-size:80%;
+		text-align:center;
+	}
+	#metricsdomainpanel
+{
+	width: 20em;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0;
+	z-index: 1000;
+	
+	}
+#metricsdomainplayerpanel
+{
+	position:relative;
+	}
+	#metricsdomaindonebtnwrapper
+	{
+		position:relative;
+		padding:0.25em;
+		padding-left:3em;
+		padding-right: 3em;
+		background:rgba(5,65,65,1);
+		}
+	#metricsdomaindonebtn
+	{
+		position:relative;
+		padding:0.5em;
+		text-align: center;
+		color:White;
+		font-size: 0.8em;
+		background:rgba(2,50,75,1)
+		}
+	#domainplayerrootcontainer
+	{
+		position:relative;
+		}
+	#metricsdomainplayerroot
+	{
+		position:relative;
+		}
+	#metricsdomainplayercontainerwrapper
+	{
+		position:relative;
+		overflow:hidden;
+		}
+		#metricsdomainplayercontainer
+		{
+			position:relative;
+            background:rgba(252, 252, 249, 1);
+			}
+			#metricsdomainplayerscrollable
+			{
+				overflow:hidden;
+				position:relative;
+				
+                border:1px solid hsla(179,100%,5%,0.2);
+				}
+			#metricsdomainplayeritems
+			{
+				position:relative;
+				width:200em;
+				}
+			.metricsdomainplayerpage
+			{
+				position:relative;
+				display:inline-block;
+                min-height:22em;
+                vertical-align:top;
+                padding: 0em;
+				}
+				.metricsdppagecontent
+				{
+					overflow:auto;
+					
+					font-size: 80%;
+					background:rgba(254, 254, 251, 1);
+					padding-top: 0.15em;
+					padding-bottom: 0.5em;
+					}
+				.droppztargetable
+				{
+					position:relative;
+					}	
+	#metricsdomainplayerprevnextbtnscontainer
+	{
+		position:relative;
+        margin-top:0.5em;
+        height:2.5em;
+        font-size: 0.8em;
+        background:rgba(1,40,40,0.8);
+		}
+		#metricsdomainplayerprev
+		{
+			position:absolute;
+			top:0.4em;
+			bottom:0.5em;
+			left:0.25em;
+			right:60%;
+            color:rgb(255,255,255);
+            text-align:left;
+            padding:0.25em;
+            padding-left: 0.5em
+			}
+		#metricsdomainplayernext
+		{
+			position:absolute;
+			top:0.4em;
+			bottom:0.5em;
+			right:0.25em;
+			left:60%;
+            color:rgb(255,255,255);
+            text-align:right;
+            padding:0.25em;
+            padding-right: 0.5em;
+			}
+			#metricscommentpagezerocontent
+			{
+				padding:0.5em;
+				}
+	
+	#rsltsgrplistrfgolistview
+	{
+		position:relative;
+		overflow: auto;
+		padding: 0.1em;
+		max-height: 20em;
+        background:rgba(180,180,180,1);
+		}
+	.rfgoitemcontainer
+	{
+		position:relative;
+		left:1%;
+		right:1%;
+        width:96%;
+		min-height:6em;
+        margin-bottom:5px;
+        background-color:rgba(235, 235, 235,0.2);
+		}
+	#prwsmdroot
+	{
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		position:relative;
+		padding:0;
+        width:99%;
+        height:99%;
+        margin:auto;
+        margin-top:1px;
+        overflow:hidden;
+        color:White;
+        background-color: rgba(230,230,230,1);
+		}
+		#smdactions
+		{
+			width:100%;
+			height:2em;
+			font-size: 0.8em;
+			background:hsla(58, 80%, 25%, 1);
+			}
+		#prwsmditemsset
+		{
+			position:absolute;
+			top:1.75em;
+			bottom:0.25em;
+			left:0.25em;
+			right:0.25em;
+			padding: 0.25em;
+			padding-bottom:1em;
+			overflow:auto;
+			background-color: rgba(240,240,240,1);
+			}
+			#prwsmdkobindingpoint
+			{
+				position:relative;
+				padding: 0.25em;
+				background-color: rgba(250,250,250,1);
+				}
+	.smdsection
+	{
+		padding:0.5em;
+		margin-bottom: 0.25em;
+		background-color: rgba(180, 180, 130, 0.9);
+		}			
+	.smdsectiontitle
+	{
+		background-color:hsla(58, 80%, 25%, 1);
+		text-align:center;
+		margin-bottom: 0.25em;
+		height: 1.5em;
+		padding-top: .35em;
+		padding-bottom: .1em;
+		font-size: 0.85em;
+		}			
+	.smdkeyrow
+	{
+	padding: 0.25em;
+	height: 1.35em;
+	color: hsla(180, 10%, 99%, 0.90);
+	background-color: hsla(189, 100%, 15%, 1);
+	text-align: center;
+	font-size: 0.7em;
+		}
+	.smdvaluerow
+	{
+	padding: 0.35em;
+	padding-bottom: 0.15em;
+	height: 1.5em;
+	color: #000000;
+	background-color: hsla(180, 1%, 95%, 0.97);
+	text-align: center;
+	margin-bottom: 0.6em;
+	font-size: 0.8em;
+		}
+	
+	#metricspagespanel
+	{
+	width: 7em;
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0;
+	z-index: 1000;
+		}
+	#surveypagenaviroot
+	{
+		position:relative;
+		}
+		#surveypagenavicontainerwrapper
+		{
+			position:relative;
+			}
+			#surveypagenavicontainer 
+			{
+				position:relative;
+				}
+		#surveypagenaviscrollable
+		{
+			position:relative;
+			padding: 0.25em;
+			padding-bottom:1em;
+			overflow:auto;
+			background-color: rgba(240,240,240,1);
+			min-height:12em;
+			max-height: 14em;
+			}
+			#surveypagenaviitems
+			{
+				position:relative;
+				padding: 0.25em;
+				padding-left: 0.25em;
+				padding-right:1em;
+				background-color: rgba(250,250,250,1);
+				}
+	.prwpageicon
+	{
+		height:2.5em;
+		padding: 0.15em;
+		padding-bottom: 0.5em;
+		}
+		.prwpageiconcontent
+		{
+			text-align:center;
+			padding:0.25em;
+			padding-bottom: 0.7em;
+			padding-top: 0.7em;
+            color:White;
+            font-size: 0.7em;
+			}
+		.selectedpageicon
+		{
+			background-color: hsla(208, 100%, 47%, 1);
+			}
+		.defaultpageicon
+		{
+			background-color: hsla(208, 80%, 17%, 1);
+			}
+	#surveypagenaviprevnextbtnscontainer
+	{
+		display:none;
+		}
+		
+#textentrycontainerwrapper
+{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+			overflow:hidden;
+			background-color: rgba(24,240,24,0.1);
+	}
+	#textentrycontainer
+	{
+		
+		
+		}
+	#textentryroot
+	{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+		padding:0.05em;
+		background-color: rgba(245,245,240,1);
+		}
+	.textentrybtnpanel
+	{
+		position:absolute;
+		top:3em;
+		right:0.05em;
+		width: 3.5em;
+		padding:0.5em;
+		padding-bottom: 0.05em;
+		padding-left: 0.75em;
+		background-color: rgba(252, 253, 250,1);
+		}
+	.textentrybtn
+	{
+		display:inline-block;
+		vertical-align: top;
+		width: 3.85em;
+		padding:0.5em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin-bottom: 1.5em;
+		text-align: center;
+		font-size: 0.7em;
+		background-color: rgba(224,224,224,1);
+		}
+		#textentrytoolbar
+		{
+			position:relative;
+			width: 19em;
+			padding-left:0.05em;
+			padding-right:0.05em;
+			overflow: auto;
+			}
+		.redactor_toolbar
+		{
+			width: 33em;
+			white-space: nowrap;
+			}
+	#textentryeditorcontainerwrapper
+	{
+			position:absolute;
+			top:3em;
+			bottom:0.5em;
+			left:0.05em;
+			right:4.95em;
+			overflow:hidden;
+		
+		background-color: rgba(224,224,220,1);
+		}	
+		#textentryeditorcontainer
+		{
+			position:absolute;
+			top:0.05em;
+			bottom:0.05em;
+			left:0.05em;
+			right:0.05em;
+			overflow:auto;
+			padding-left: 8px;
+			padding-right: 13px;
+			background-color: rgba(255,255,255,1);
+			}
+#textentryeditorplaceholder
+		{
+			position:relative;
+			height: 8.5em;
+			font-size:15px;
+
+			font-family:Arial, Helvetica, Verdana, Tahoma, sans-serif;
+			line-height: 1.45em;
+			background-color: rgba(255,255,255,1);
+			}
+#textentrybottompanel
+{
+			width:24em;
+			position:absolute;
+			top:0;
+			right:0;
+			padding: 0;
+			padding-bottom: 0.25em;
+			overflow:hidden;
+			z-index: 1600;
+			min-height: 14em;
+			background-color: rgba(220,225,215,1);
+	}
+	#textentrybottompanelcontent
+	{
+		position:absolute;
+			top:0.25em;
+			bottom:0.25em;
+			left:0.25em;
+			right:0.25em;
+		background-color: rgba(250,250,245,1);
+		}

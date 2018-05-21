@@ -1,0 +1,77 @@
+﻿/*[data-prwtype="partialviewholder"]
+{
+	position: fixed;
+	top: 100px;
+	left: 400px;
+}
+
+
+
+[data-prwtype="leftpanel"]
+{
+	background-color: #006666;
+	color: #FFFFFF;
+	position: fixed;
+	width: 25%;
+	height: 60%;
+	margin-top: 20%;
+	margin-left: 5px;
+	padding: 5px;
+	min-width: 175px;
+	bottom: 34px;
+}
+
+[data-prwtype="listitem"]
+{
+	font-family: 'Segoe UI';
+	font-size: medium;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	padding: 5px;
+	color: #FFFFff;
+	background-color: #048287
+}
+[data-prwtype="listitem"] p
+{
+	font-family: 'Segoe Print';
+	font-size: small;
+	font-weight: lighter;
+	margin-left: 2px;
+	padding: 2px;
+	color: #DDEEDD;
+}
+/* root element for scrollable */
+.scrollable {
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+
+	/* vertical scrollables have typically larger height than width but not now */
+	height: 88%;
+	width: 98%;
+	background-color: #004444;
+	margin-bottom: 5px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+	position:absolute;
+	/* this time we have very large space for the height */
+	height: 20000em;
+	width: 98%;
+	margin-bottom: 5px;
+}
+[data-prwtype="scrollverticalactions"] 
+{
+	margin-right: 5px;}
+
+[data-prwtype="scrollverticalactions"] .next
+{
+	position: relative;
+	float:right;
+}
+/* is a group of all the items...one group...behaves like wrap panel 
+.items div {
+	float:left;
+}*/
